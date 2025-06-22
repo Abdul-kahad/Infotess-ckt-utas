@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message {
+    color: #c0392b;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.login-body{
+    background: linear-gradient(to top,  #2C2B77 ,#01ACF1);
+}
+
+.signup-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+}
+
+.signup-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 5px;
+   outline-color: #01ACF1;
+   border: none;
+   background-color: #eee;
+   -webkit-appearance: none;
+}
+
+
+label{
+    font-weight: bold;
+    color: #313131;
+}
+
+.create-btn{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #01ACF1;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.create-btn:hover{
+    background-color: #0090c9;
+}
+
+
+hr{
+    margin-bottom: 20px;
+}
+
+small{
+    padding-top: 30px;
+    color: #606060;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+small a{
+    color: #f20000;
+    text-decoration: underline;
+}
+
+input::-webkit-inner-spin-button { 
+  -webkit-appearance: none; 
+}
+
+/* Mobile responsive syling */
+@media (max-width: 480px){
+    .signup-card{
+        width: 65%;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* Tablet responsive syling */
+@media (min-width: 481px) and (max-width: 768px){
+
+
+
+}
+
+/* Desktop or Laptop responsive syling */
+@media (min-width: 769px){
+
+
+
+
+}

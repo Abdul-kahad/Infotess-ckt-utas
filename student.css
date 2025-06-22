@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.dsbrd{
+    display: flex;
+}
+
+.student-sidenav{
+    width: 250px;
+    height: 100vh;
+    background-color: #01ACF1;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+}
+
+.student-sidenav button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    width: 50%;
+}
+
+.sidenav-links{
+    padding: 10px;
+}
+
+a{
+    color: white;
+}
+
+h1{
+    padding-top: 30px;
+
+}
+
+.infotess{
+    text-align: center;
+    margin: 24px 0;
+}
+
+.infotess img {
+    width: 100px;
+    margin-bottom: 8px;
+}
+
+
+.dashboardmain{
+    background-color: #ffffff;
+   width: 80%;
+    height: 100vh;
+    padding: 0 25px;
+    text-align: center;
+    z-index: 10;
+}
+
+.stud-info{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 40px;
+    line-height: 35px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 1px solid  #2C2B77;
+}
+
+.recentActivities{
+    width: 45%;
+    margin-top: 50px;
+    text-align: left;
+    padding: 10px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #ccc;
+}
+
+.updts{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recentActivities ul li,h4{
+    padding: 10px;
+}
+
+.announcement{
+    width: 45%;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #ccc;
+}
+
+.announcement h4{
+    padding: 10px;
+}
+
+
+.annc1{
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 1px solid lightskyblue;
+}
+
+.annc2{
+    padding: 20px;
+    background-color: lightgreen;
+    border-radius: 5px;
+    border: 1px solid lightseagreen;
+
+}
+
+
+  /* Hide the real file input */
+  .upload-form input[type="file"] {
+    display: none;
+  }
+
+  /* Style the custom file upload button */
+  .custom-file-upload {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  /* Style the submit button */
+  .upload-form button {
+    display: inline-block;
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    vertical-align: middle;
+  }
+
+  .upload-form {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Mobile responsive syling */
+@media (max-width: 480px){
+    .dsbrd{
+    display: flex;
+    flex-direction: column;
+  height: 1920px;
+}
+
+.student-sidenav{
+    width: 325px;
+     
+}
+
+
+
+
+
+.st{
+    font-size: 25px;
+
+}
+
+.dashboardmain{
+    width: 86%;
+    
+}
+
+.recentActivities{
+    width: 100%;
+    
+    
+}
+
+.announcement{
+    width: 100%;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* Tablet responsive syling */
+@media (min-width: 481px) and (max-width: 768px){
+    .dsbrd{
+    display: flex;
+    flex-direction: column;
+    height: 1750px;
+}
+
+.student-sidenav{
+    width: 431px;
+    height: 550px;
+     
+}
+
+
+
+
+
+.st{
+    font-size: 25px;
+
+}
+
+
+
+.dashboardmain{
+    width: 89%;
+    
+}
+
+.recentActivities{
+    width: 100%;
+    
+    
+}
+
+.announcement{
+    width: 100%;
+    
+    
+}
+
+
+
+
+}
+
+/* Desktop or Laptop responsive syling */
+@media (min-width: 769px){
+    
+
+}
